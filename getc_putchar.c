@@ -7,21 +7,20 @@ int main (){
 
     printf("Podaj znak: ");
     scanf("%c", &znak);
-    printf("Podaj ciąg znakowy");
+    printf("Podaj ciąg znakowy: ");
     scanf("%s", ciag_znakow);
     printf("Podaj liczbę całkowitą: ");
     scanf("%i", &wartosc_calkowita);
     printf("Podaj liczbę wymierną: ");
     scanf("%lf", &wartosc_wymierna);
-    {
-        int f;
-        f = 10;
-        printf("%i", f);
-    }
+
     printf("\n");
-    printf("znak = %c, \nciąg znakowy)liczba całkowita = %i,"
-           "\n liczba wymierna = %lf",
+    printf("znak = %c,\n"
+           "ciąg znakowy = %s,\n"
+           "liczba całkowita = %i,\n"
+           "liczba wymierna = %lf",
            znak,
+           ciag_znakow,
            wartosc_calkowita,
            wartosc_wymierna
            );
